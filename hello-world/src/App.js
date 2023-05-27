@@ -3,21 +3,23 @@ import Greet from './components/Greet';
 import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 import Props from './components/Props';
+import Message from './components/Message';
 function App() {
   return (
     <div className="App">
+      <Message />
+
       {/* <Greet/> */}
       {/* <Welcome/> */}
       {/* <Hello/> */}
-      <Props name="Vijay" heroName="Spider man">
+      {/* <Props name="Vijay" heroName="Spider man">
       <p>This is a children</p>
-      </Props>
-      <Props name="Nikhil" heroName="Bat man">
+      </Props> */}
+      {/* <Props name="Nikhil" heroName="Bat man">
         <button>Action</button>
-      </Props>
-      <Props name="Shyam" heroName="Super man"/>
-      //class components
-      <Welcome name="class component" heroName="Props Power"/>
+      </Props> */}
+      {/* <Props name="Shyam" heroName="Super man"/> */}
+      {/* <Welcome name="class component" heroName="Props Power"/> */}
     </div>
   );
 }
